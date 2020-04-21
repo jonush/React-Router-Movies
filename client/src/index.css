@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #f2f2f2;
+  background-color: #486772;
 }
 
 .movie-card {
@@ -13,7 +13,13 @@ body {
   padding: 1rem;
   cursor: pointer;
   position: relative;
-  margin: 1rem auto;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 2rem;
+}
+
+.movie-list {
+  text-decoration: none;
 }
 
 .movie-director {
@@ -26,11 +32,10 @@ body {
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
-  padding: 1rem;
+  padding: 2rem 4rem;
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
-  width: 75%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,8 +63,10 @@ body {
   top: 25px;
   right: 25px;
   border: 1px solid grey;
-  padding: 5px 10px;
+  margin-right: 2rem;
+  padding: 5px 20px;
   background-color: lightseagreen;
+  border-radius: 10px;
 }
 .save-button:hover {
   background-color: green;
@@ -67,6 +74,11 @@ body {
 }
 
 .home-button {
-  padding: 5px 10px;
+  padding: 10px 15px;
   background-color: lightskyblue;
+  border-radius: 10px;
+}
+
+.home-button:hover {
+  background-color: aquamarine;
 }
